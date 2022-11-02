@@ -34,7 +34,7 @@ when we finish app run
 
 ## Markdown
 
-这里Import库要注意
+### 这里Import库要注意
 
 '''go
 import (
@@ -44,6 +44,14 @@ import (
 "fyne.io/fyne/v2/widget"
 )
 '''
+
+### 中文乱码解决
+
+我拷贝了window的ttf到linux下
+
+/usr/share/fonts/
+
+采用了他人写好点字体查询函数将其设置成fyne的字体
 
 ## GoldWatch
 

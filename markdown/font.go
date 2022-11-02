@@ -7,7 +7,7 @@ package main
 // 	"github.com/flopp/go-findfont"
 // )
 //
-// // 没用
+// // 查找当前目录库
 // func init() {
 // 	fontPaths := findfont.List()
 // 	for _, path := range fontPaths {
@@ -26,6 +26,7 @@ import (
 	"github.com/golang/freetype/truetype"
 )
 
+// 查找系统fonts库
 func font() {
 	fontPath, err := findfont.Find("simsun.ttc")
 	if err != nil {
